@@ -1,0 +1,11 @@
+.about-container {
+  margin: 0;
+  padding: 0;
+  background-color: brown;
+  width: 100vw;
+  height: 100vh;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
