@@ -1,14 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+* {
+  font-family: "Sen", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .buttons-wrapper {
   height: 100vh;
   width: 100vw;
   background-color: #383636;
-  margin: 0;
-  padding: 0;
 }
-.buttons-wrapper div {
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 10%;
+  padding: 1rem;
+  width: min-content;
+  border: 1px solid red;
   gap: 1rem;
+  border-radius: 10px;
+}
+.btn {
+  padding: 0.2rem;
+  border-radius: 10px;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #ff0000;
+  color: #fff;
+  text-decoration: none !important;
+}
+.btn-danger:hover {
+  background-color: #754e4e;
+  color: #fff;
+}
+.btn-link {
+  background-color: #488f41;
+  color: #fff7f7;
+}
+.btn-link:hover {
+  background-color: #2e5e2b;
+  color: #fff;
+  font-size: medium;
+  text-decoration: none;
 }
