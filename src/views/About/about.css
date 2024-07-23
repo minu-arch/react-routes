@@ -1,13 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
 .about-container {
   margin: 0;
   padding: 0;
   background-color: brown;
   width: 100vw;
   height: 100vh;
+  font-family: "Roboto Mono", monospace;
 }
 .title-container {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
+  align-items: center;
 }
