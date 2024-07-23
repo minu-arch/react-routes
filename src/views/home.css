@@ -3,11 +3,16 @@
 .wrapper {
   height: 100vh;
   width: 100vw;
-  background-color: aquamarine;
+  background-color: #201f1f;
   display: flex;
   flex-direction: column;
   text-align: center;
   font-family: "Poppins", sans-serif;
+}
+
+.wrapper h1 {
+  color: white;
+  margin-top: 2rem;
 }
 
 .vertical {
@@ -21,11 +26,10 @@
 .vertical a {
   text-decoration: none;
   color: #b11d1d;
+  font-weight: bold;
+  font-size: large;
 }
 .vertical a:hover {
-  background-color: #c55b5b;
-  font-size: medium;
-  color: aliceblue;
-  padding: 0.2rem;
-  border-radius: 10px;
+  /* background-color: #c55b5b; */
+  text-decoration: underline green 2px;
 }

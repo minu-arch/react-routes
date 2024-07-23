@@ -8,9 +8,9 @@ export default () => (
     <div className="vertical">
       <Link to="/about">About</Link>
       <Link to="/buttons">Buttons</Link>
-      <Link to="/cardspace1">cardspace1</Link>
-      <Link to="/cardspace2">cardspace2</Link>
-      <Link to="/cardspace3">cardspace3</Link>
+      <Link to="/cards">Cards</Link>
+      <Link to="/game">Game</Link>
+      <Link to="/sample">Sample</Link>
     </div>
   </div>
 );

@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./views/Home";
 import About from "./views/About/About";
 import Button from "./views/Buttons/Button";
+import Cards from "./views/Cards/Cards";
 
 function App() {
   return (
@@ -11,9 +12,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="buttons" element={<Button />} />
-          {/* <Route path="cardspace1" element={<CardSpace1 />} />
-          <Route path="cardspace2" element={<CardSpace2 />} />
-          <Route path="cardspace3" element={<CardSpace3 />} /> */}
+          <Route path="cards" element={<Cards />} />
         </Routes>
       </main>
     </BrowserRouter>

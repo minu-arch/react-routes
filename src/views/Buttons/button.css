@@ -34,6 +34,7 @@
   border: none;
   text-decoration: underline;
   cursor: pointer;
+  font-size: 1rem;
 }
 
 .btn-danger {
@@ -52,6 +53,18 @@
 .btn-link:hover {
   background-color: #2e5e2b;
   color: #fff;
-  font-size: medium;
+  font-weight: 600;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container > div {
+    flex-direction: column;
+    height: max-content;
+    gap: 4rem;
+  }
+  .btn {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
 }
