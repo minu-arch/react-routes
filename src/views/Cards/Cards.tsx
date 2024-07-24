@@ -1,7 +1,8 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import "./cards.css";
 import CardOne from "./CardOne";
 import CardTwo from "./CardTwo";
+import CardPrivacy from "./CardPrivacy";
 
 function Cards() {
   const data = {
@@ -15,6 +16,7 @@ function Cards() {
         <div className="container-vertical">
           <CardOne />
           <CardTwo />
+          <CardPrivacy />
         </div>
       </div>
     </div>
