@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.form {
+  width: auto;
+  height: max-content;
+  background-color: #1f2937;
+  padding: 2rem;
+  border-radius: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.labelclass {
+  font-size: calc(0.4rem + 1.5vmin);
+  font-weight: 500;
+}
+input {
+  margin-left: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  height: 23px;
+  padding-left: 5px;
+}
+input:focus {
+  outline: none;
+}
+.age {
+  margin-left: 27px;
+}
+.names {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.names h2 {
+  font-size: calc(0.6rem + 1.5vmin);
+  font-weight: 500;
+  align-self: center;
+}
+.names p {
+  font-size: calc(0.3rem + 1.5vmin);
+  font-weight: 500;
+}
+.underline {
+  height: 0.1rem;
+  background-color: rgb(87, 35, 31);
+  width: 100%;
+}

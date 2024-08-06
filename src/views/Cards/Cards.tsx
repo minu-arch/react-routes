@@ -1,12 +1,13 @@
-import React from "react";
-import "./cards.css";
-import CardOne from "./CardOne";
-import CardTwo from "./CardTwo";
-import CardPrivacy from "./CardPrivacy";
+import React from 'react';
+import './cards.css';
+import CardOne from './CardOne';
+import CardTwo from './CardTwo';
+import CardPrivacy from './CardPrivacy';
+import FlightBook from './FlightBook';
 
 function Cards() {
   const data = {
-    title: "Cards",
+    title: 'Cards',
   };
 
   return (
@@ -17,6 +18,7 @@ function Cards() {
           <CardOne />
           <CardTwo />
           <CardPrivacy />
+          <FlightBook />
         </div>
       </div>
     </div>
