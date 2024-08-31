@@ -4,6 +4,8 @@ import CardOne from './CardOne';
 import CardTwo from './CardTwo';
 import CardPrivacy from './CardPrivacy';
 import FlightBook from './FlightBook';
+import DeleteConfirmation from './DeleteConfirmation';
+import TaskToDo from './TaskToDo';
 
 function Cards() {
   const data = {
@@ -18,7 +20,9 @@ function Cards() {
           <CardOne />
           <CardTwo />
           <CardPrivacy />
+          <DeleteConfirmation />
           <FlightBook />
+          <TaskToDo />
         </div>
       </div>
     </div>

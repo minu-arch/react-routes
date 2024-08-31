@@ -11,8 +11,15 @@ type UserType = {
 const FormSimple = () => {
   const [user, setUser] = useState<UserType>({ name: 'Jhon', age: 25 });
 
+  const names = ['Jhon', 'Jane', 'Doe', 'Smith', 'Alex', 'Max', 'Sam'];
+
   const changeName = () => {
-    setUser({ ...user, name: 'Jane', age: 30, phone: '1234567890' });
+    setUser({
+      ...user,
+      name: names[Math.floor(Math.random() * names.length)],
+      age: 30,
+      phone: '+1234567890',
+    });
   };
   return (
     <>
